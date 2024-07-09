@@ -8,8 +8,38 @@ html{
 nav p{
     margin-left: 33rem;
     margin-top:  10rem;
-    font-size
+   
 }
-header nav {
-    margin-left: ;
+
+nav form {
+    margin-left:39rem;
+    
 }
+#searchbox {
+    background-color: rgb(6, 59, 59);
+    width: 100px;
+    border-radius: 50px;
+
+}
+header nav form button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    /* padding: 10px; */
+  }
+  body article{
+    padding-left: 29rem;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+  }
