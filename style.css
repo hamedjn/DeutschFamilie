@@ -1,5 +1,7 @@
 html{
     background: radial-gradient(rgba(25, 25, 26, 0.85),rgba(32, 32, 32, 0.85)) ,url(./DF.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
    
  }
 .Ebücher {
@@ -35,11 +37,21 @@ header nav form button {
     height: 24px;
     /* padding: 10px; */
   }
-  body article{
+  body section{
     padding-left: 29rem;
     padding-top: 5rem;
     padding-bottom: 7rem;
     background-color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
+  }
+  #logo{
+    font-size: 5rem;
+    margin-left: 30rem;
+    color: rgb(90, 154, 192);
+    font-family: Brush Script MT, Brush Script Std, cursive
+  }
+  footer{
+    background-color: #fff;
+    padding-bottom: 20rem;
   }
