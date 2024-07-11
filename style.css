@@ -8,8 +8,9 @@ html{
     margin-left: 70rem;
 }
 nav p{
-    margin-left: 33rem;
+    margin-left: 15rem;
     margin-top:  10rem;
+    font-family: Copperplate Gothic Light; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 25.2px; } h3 { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px
    
 }
 
@@ -37,13 +38,47 @@ header nav form button {
     height: 24px;
     /* padding: 10px; */
   }
-  body section{
+  #section{
     padding-left: 29rem;
     padding-top: 5rem;
     padding-bottom: 7rem;
     background-color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
+  }
+  body section p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+  }
+  .A1{
+    background-color: #fff;
+    width: 7rem;
+    height: 5rem;
+    border-style: dashed;
+  }
+  .A2{
+    background-color: #fff;
+    width: 7rem;
+    height: 5rem;
+    border-style: dashed;
+  }
+  .B1{
+    background-color: #fff;
+    width: 7rem;
+    height: 5rem;
+    border-style: dashed;
+  }
+  .B2{
+    background-color: #fff;
+    width: 7rem;
+    height: 5rem;
+    border-style: dashed;
+  }
+  .C{
+    background-color: #fff;
+    width: 7rem;
+    height: 5rem;
+    border-style: dashed;
   }
   #logo{
     font-size: 5rem;
@@ -54,4 +89,8 @@ header nav form button {
   footer{
     background-color: #fff;
     padding-bottom: 20rem;
+  }
+  footer a{
+    font-size: x-large;
+    text-align: end;
   }
