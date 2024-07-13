@@ -56,13 +56,15 @@ header nav form button {
     width: 7rem;
     height: 5rem;
     /* border-style: dashed; */
-    background-image: url(./A1.png);
+    /* background-image: url(./A1.png); */
+    border-radius: 20%;
   }
   .A2{
-    background-color: #05862c;
+    background-color: #dae4dd;
     width: 7rem;
     height: 5rem;
     /* border-style: dashed; */
+    border-radius: 20%;
   }
   .A3{
     background-color: #fff;
@@ -71,13 +73,15 @@ header nav form button {
     /* border-style: dashed; */
   }
   .B1{
-    background-color: #0a4385;
+    background-color: #e1e6eb;
     width: 7rem;
     height: 5rem;
     /* border-style: dashed; */
+    border-radius: 20%;
   }
   .B2{
-    background-color: #a72323;
+    border-radius: 20%;
+    background-color: #d6cbcb;
     width: 7rem;
     height: 5rem;
     /* border-style: dashed; */
