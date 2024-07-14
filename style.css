@@ -9,7 +9,7 @@ html{
     /* padding-bottom: 15rem; */
 }
 nav p{
-    margin-left: 15rem;
+    margin-left: 20rem;
     margin-top:  10rem;
     font-family: Copperplate Gothic Light; font-size: 36px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 25.2px; } h3 { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px
     
@@ -52,7 +52,7 @@ header nav form button {
     font-size: x-large;
   }
   .A1{
-    background-color: #fff;
+    background-color: #ffffff;
     width: 7rem;
     height: 5rem;
     /* border-style: dashed; */
@@ -60,7 +60,7 @@ header nav form button {
     border-radius: 20%;
   }
   .A2{
-    background-color: #dae4dd;
+    background-color: #ffffff;
     width: 7rem;
     height: 5rem;
     /* border-style: dashed; */
@@ -73,7 +73,7 @@ header nav form button {
     /* border-style: dashed; */
   }
   .B1{
-    background-color: #e1e6eb;
+    background-color: #ffffff;
     width: 7rem;
     height: 5rem;
     /* border-style: dashed; */
@@ -81,12 +81,13 @@ header nav form button {
   }
   .B2{
     border-radius: 20%;
-    background-color: #d6cbcb;
+    background-color: #ffffff;
     width: 7rem;
     height: 5rem;
     /* border-style: dashed; */
   }
   #logo{
+   box-shadow: rgba( 0 0 40px rgba(0,0,0,.45););
     font-size: 5rem;
     margin-left: 30rem;
     color: rgb(90, 154, 192);
@@ -136,4 +137,8 @@ header nav form button {
 .B2:hover{
   color: rgb(0, 0, 0);
   filter: drop-shadow(10PX 10px 10px);
+}
+.Niveau{
+  padding-right: 20rem;
+  font-family: Copperplate Gothic Light; font-size: 26px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 25.2px; } h3 { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px
 }
