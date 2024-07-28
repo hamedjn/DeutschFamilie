@@ -1,0 +1,9 @@
+html{
+     background: linear-gradient(rgb(8, 84, 97),rgb(40, 121, 146),#fff);background-repeat: no-repeat;padding-bottom: 39rem;
+}
+div  {
+    border-style: groove;
+    border-radius: 10%;
+    width: min-content;
+    height: fit-content;
+}
