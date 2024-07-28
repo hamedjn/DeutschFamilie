@@ -58,6 +58,7 @@ header nav form button {
     /* border-style: dashed; */
     /* background-image: url(./A1.png); */
     border-radius: 20%;
+    margin-right: 5rem;
   }
   .A2{
     background-color: #ffffff;
@@ -65,6 +66,7 @@ header nav form button {
     height: 5rem;
     /* border-style: dashed; */
     border-radius: 20%;
+    margin-left: 5rem;
   }
   .A3{
     background-color: #fff;
@@ -78,6 +80,7 @@ header nav form button {
     height: 5rem;
     /* border-style: dashed; */
     border-radius: 20%;
+    
   }
   .B2{
     border-radius: 20%;
@@ -85,6 +88,7 @@ header nav form button {
     width: 7rem;
     height: 5rem;
     /* border-style: dashed; */
+    margin-left: 10rem;
   }
   #logo{
    box-shadow: rgba( 0 0 40px rgba(0,0,0,.45););
@@ -110,7 +114,7 @@ header nav form button {
     /* font-weight: bolder; */
   }
  .A2{
-  margin-left: 60rem;
+  /* margin-left: 60rem; */
  }
  body section nav{
   margin-left: 
@@ -141,4 +145,18 @@ header nav form button {
 .Niveau{
   padding-right: 20rem;
   font-family: Copperplate Gothic Light; font-size: 26px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 25.2px; } h3 { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px
+}
+#A {
+  /* float: right; */
+  
+  font-size: larger
+  
+}
+#B {
+  float: left;
+  clear: both;
+  font-size: larger;
+}
+.AB{
+  padding-left: 6rem;
 }
