@@ -5,8 +5,8 @@ html{
    
  }
 .Ebücher {  
-    margin-left: 65rem;
-    /* padding-bottom: 15rem; */
+    
+    float: right;
 }
 nav p{
     margin-left: 20rem;
