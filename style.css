@@ -51,21 +51,18 @@ header nav form button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
   }
-  .row1{
-
-  }
   .boxt{
     background-color:#063b3b;
-    border-radius: 20%;
-    text-align: center;
-    margin-left: 4rem;
+    border-radius: 10%;
+    text-align: start;
+    /* margin-left: 4rem; */
     font-size: larger;
-    width: 5rem;
-    height: 4rem;
+    width: 200PX;
+    height: 160PX;
     /* padding-bottom: 1rem; */
     float: left;
     margin: .5rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
   /* .A1{ 
     background-color: #ffffff;
@@ -179,14 +176,19 @@ header nav form button {
   display: table;
 }
 .AB{
-  padding-left: 6rem;
+  padding-left: 1rem;
   display: table;
 }
 .row1 p {
+text-align: center;
   font-size: small;
-  margin-right: 40rem;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* margin-left: 2rem; */
 }
 .row2 p {
+  text-align: center;
   font-size: small;
-  margin-right: 40rem;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
