@@ -1,11 +1,35 @@
 html{
-     background: linear-gradient(rgb(8, 84, 97),rgb(40, 121, 146),#fff);background-repeat: no-repeat;padding-bottom: 23rem;
+     background: linear-gradient(#063b3b 50%,#fff 50%);background-repeat: no-repeat;padding-bottom: 23rem;
 }
-div  {
+.box {
+    background-color: #011414;
     border-style: groove;
     border-radius: 10%;
     width: min-content;
     height: fit-content;
-    margin-left: 600px;
+    margin-left: 550px;
    margin-top: 200px;
+}
+label{
+     color:aqua;
+}
+.input{
+     margin-right: 20px;
+     margin-bottom: .5rem;
+}
+p{
+     color:aqua;
+     margin-right: 20px;
+     text-align: center;
+  font-size: small;
+  font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button{
+     margin-left: 8 rem;
+     text-align: center;
+     margin-top: .5rem;
+}
+#hier{
+     color: aqua;
 }
