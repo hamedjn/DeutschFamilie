@@ -51,12 +51,28 @@ header nav form button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
   }
-  .A1{
+  .row1{
+
+  }
+  .boxt{
+    background-color:#063b3b;
+    border-radius: 20%;
+    text-align: center;
+    margin-left: 4rem;
+    font-size: larger;
+    width: 5rem;
+    height: 4rem;
+    /* padding-bottom: 1rem; */
+    float: left;
+    margin: .5rem;
+    margin-left: 3rem;
+  }
+  /* .A1{ 
     background-color: #ffffff;
     width: 7rem;
     height: 5rem;
-    /* border-style: dashed; */
-    /* background-image: url(./A1.png); */
+    border-style: dashed;
+    background-image: url(./A1.png);
     border-radius: 20%;
     margin-right: 5rem;
   }
@@ -64,7 +80,7 @@ header nav form button {
     background-color: #ffffff;
     width: 7rem;
     height: 5rem;
-    /* border-style: dashed; */
+    border-style: dashed;
     border-radius: 20%;
     margin-left: 5rem;
   }
@@ -72,13 +88,13 @@ header nav form button {
     background-color: #fff;
     width: 7rem;
     height: 5rem;
-    /* border-style: dashed; */
+    border-style: dashed;
   }
   .B1{
     background-color: #ffffff;
     width: 7rem;
     height: 5rem;
-    /* border-style: dashed; */
+    border-style: dashed;
     border-radius: 20%;
     
   }
@@ -87,9 +103,9 @@ header nav form button {
     background-color: #ffffff;
     width: 7rem;
     height: 5rem;
-    /* border-style: dashed; */
+    border-style: dashed;
     margin-left: 10rem;
-  }
+  }*/
   #logo{
    box-shadow: rgba( 0 0 40px rgba(0,0,0,.45););
     font-size: 5rem;
@@ -113,9 +129,9 @@ header nav form button {
     text-decoration:none;
     /* font-weight: bolder; */
   }
- .A2{
-  /* margin-left: 60rem; */
- }
+ /*.A2{
+   margin-left: 60rem; 
+ }*/
  body section nav{
   margin-left: 
   2rem;
@@ -126,37 +142,37 @@ header nav form button {
   font-size: xx-large;
   padding-bottom: 5rem;
  }
- .A1:hover{
+ .boxt:hover{
   background-color: aqua;
   color: rgb(0, 0, 0);
   filter: drop-shadow(10PX 10px 10px);
 }
-.A2:hover:hover{
+/* .box2:hover{
   color: rgb(0, 0, 0);
   filter: drop-shadow(10PX 10px 10px);
   background-color: aqua;
 }
-.B1:hover{
+.box3:hover{
   color: rgb(0, 0, 0);
   filter: drop-shadow(10PX 10px 10px);
   background-color: aqua;
 }
-.B2:hover{
+.box4:hover{
   background-color:aqua;
   color: rgb(0, 0, 0);
   filter: drop-shadow(10PX 10px 10px);
-}
+} */
 .Niveau{
   padding-right: 20rem;
   font-family: Copperplate Gothic Light; font-size: 26px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 25.2px; } h3 { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Copperplate, Copperplate Gothic Light, fantasy; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px
 }
-#A {
+.row1{
   float: right;
   display: table;
   font-size: larger
   
 }
-#B {
+.row2 {
   float: left;
   clear: both;
   font-size: larger;
@@ -164,4 +180,13 @@ header nav form button {
 }
 .AB{
   padding-left: 6rem;
+  display: table;
+}
+.row1 p {
+  font-size: small;
+  margin-right: 40rem;
+}
+.row2 p {
+  font-size: small;
+  margin-right: 40rem;
 }
