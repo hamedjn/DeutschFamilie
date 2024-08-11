@@ -52,7 +52,7 @@ header nav form button {
     font-size: x-large;
   }
   .box{
-    background-color:#063b3b;
+    background-color:#ffff;
     border-radius: 10%;
     text-align: start;
     /* margin-left: 4rem; */
@@ -134,6 +134,10 @@ header nav form button {
   2rem;
  }
  .stufe{
+  border-right: aqua;
+  border-left: #fff;
+  border-top: #fff;
+  border-bottom: #fff;
   width: 70px;
   height: 70px;
   border-style: solid;
@@ -150,7 +154,7 @@ header nav form button {
   padding-bottom: 5rem;
  }
  .box:hover{
-  background-color: aqua;
+  background-color: #ffff;
   color: rgb(0, 0, 0);
   filter: drop-shadow(10PX 10px 10px);
 }
