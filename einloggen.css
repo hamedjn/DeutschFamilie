@@ -1,5 +1,5 @@
 html{
-     background: linear-gradient(#063b3b ,#fff );background-repeat: no-repeat;
+     background: linear-gradient(#063b3b ,#fff );background-repeat: no-repeat;background-size: 100%;
 }
 .box {
     background-color: #011414;
@@ -9,9 +9,9 @@ html{
     height: fit-content;
    /* margin-left: 550px;
     margin-top: 200px; */
-    position: relative;
-    top: 100px;
-    left: 550px;
+    position: relative; 
+    top: 10rem;
+    left: 35rem;
 }
 label{
      color:aqua;
