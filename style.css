@@ -1,8 +1,8 @@
 html{
-    background: radial-gradient(rgba(25, 25, 26, 0.85),rgba(32, 32, 32, 0.85)) ,url(./DF.jpg);
+   background:  radial-gradient(rgba(25, 25, 26, 0.85),rgba(32, 32, 32, 0.85)) ,  url(./DF.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-   
+    background-size: 100% 100%;
+    background-position: center;
  }
 .Ebücher {  
     
@@ -39,10 +39,10 @@ header nav form button {
     height: 24px;
   }
   #section{
-    width: 65vw;
-    padding-left: 29rem;
-    padding-top: 5rem;
-    padding-bottom: 7rem;
+    background-size: 100% ;
+    /* padding-left: 30em; 
+    padding-top: 5em;
+    padding-bottom: 7rem;*/
     background-color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
@@ -70,6 +70,7 @@ header nav form button {
   }
   footer{
     background-color: #ffffff;
+    width: 100vw;
   }
   footer a{
     text-align: end;
@@ -92,7 +93,7 @@ header nav form button {
   height: 70px;
   border-style: solid;
   border-radius: 10%;
-  font-size:3rem;
+  font-size:250%;
   position: relative;
   left: 2px;
   top: 10px;
@@ -108,7 +109,7 @@ header nav form button {
   filter: drop-shadow(10PX 10px 10px);
 }
 .Niveau{
-  padding-right: 20rem;
+  padding-left: 30rem;
   font-family: Copperplate Gothic Light; font-style: normal;
    font-variant: normal;
     font-weight: 700; 
@@ -118,16 +119,18 @@ header nav form button {
 .row1{
   float: right;
   display: table;
+  padding-left: 25rem;
   
 }
 .row2 {
+  padding-left: 25rem;
   float: left;
   clear: both;
   display: table;
 }
 .AB{
   position: relative;
-  right: 120px;
+  /* right: 120px; */
   padding-right: 5rem;
   display: table;
 }
