@@ -10,24 +10,24 @@
     <div id="melden">
         <p>Anmeldung</p>
         <form action="" class="form">
-            <label for="fname">Vorname:</label><br>
-            <input type="text" name="Vorname" id="" placeholder="geben Sie Ihren Vorname ein"><br>
+            <label for="fname" class="invalid">Vorname:</label><br>
+            <input type="text" name="Vorname" class="invalid" id="" placeholder="geben Sie Ihren Vorname ein"required><br>
             <label for="lname">Nachname:</label><br>
-            <input type="text" name="Nachname" id="" placeholder="geben Sie Ihren Nachname ein"><br>
+            <input type="text" name="Nachname" class="invalid"id="" placeholder="geben Sie Ihren Nachname ein"required><br>
             <label for="Email">Email:</label><br>
-            <input type="email" name="Email" id=""placeholder="geben Sie Ihren Email ein"><br>
+            <input type="email" name="Email" class=""id=""placeholder="geben Sie Ihren Email ein" required><br>
             <label for="Geburtzdatubrm">Geburtzdatubrm:</label><br>
-            <input type="date" name="Geburtzdatubrm" id=""><br>
+            <input type="date" name="Geburtzdatubrm" class="invalid"id=""required><br>
             <label for="bname" >Benutzername:</label><br>
-            <input type="username" name="Benutzername" id=""placeholder="geben Sie Ihren Benutzernamen ein"><br>
+            <input type="username" name="Benutzername" required class="invalid"id=""placeholder="geben Sie Ihren Benutzernamen ein"><br>
             <label for="password">Password:</label><br>
-            <input type="password" value="Password" id=""><br>
+            <input type="password" value="" id=""class="invalid" required><br>
             <label for="">Password Wiederholung:</label><br>
-            <input type="password" value="Password" id=""><br>
+            <input type="password" value="" id=""class="invalid" required minlength="6"><br>
             <label for=""></label>
-            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="" id=""class="invalid" required>
             <label for=""id="checkbox">Ich bestätige die Richtigkeit meines Geburtsdatums</label><br>
-            <input type="button" value="anmelden"name="anmelden"id="button">
+            <input type="button" value="anmelden"name="anmelden" class="btn">
         </form>
     </div>
     
