@@ -1,7 +1,10 @@
 html{
-   background:  radial-gradient(rgba(25, 25, 26, 0.85),rgba(32, 32, 32, 0.85)) ,  url(./DF.jpg);
+  height: 100vh;
+  width: 100vw;
+   background:  radial-gradient(rgba(25, 25, 26, 0.85),rgba(32, 32, 32, 0.85)) , url(./DF.jpg);
+   background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+   /* background-size: 100% 100%;*/
     background-position: center;
  }
 .Ebücher {  
@@ -39,6 +42,7 @@ header nav form button {
     height: 24px;
   }
   #section{
+    width: 100vw;
     background-size: 100% ;
     /* padding-left: 30em; 
     padding-top: 5em;
@@ -70,7 +74,7 @@ header nav form button {
   }
   footer{
     background-color: #ffffff;
-    width: 100vw;
+    width: 100%;
   }
   footer a{
     text-align: end;
@@ -156,4 +160,86 @@ text-align: center;
   position: relative;
   bottom: 75px;
   left: 90px;
+}
+@media (max-width:500px) {
+  .willkommen{
+    float: right;
+    padding-right: 2rem;
+    text-align: center;
+  }
+  .AB{
+    float: right;
+    padding-right: 2rem;
+  }
+  #logo{
+    float: right;
+    font-size: 4rem;
+    padding-right: .5rem;
+  }
+  section {
+    padding: 1rem calc(100%-.5rem);
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+  }
+  .Niveau{
+    float: right;
+    padding-right: 10rem;
+    text-align: center;
+  }
+  #begann{
+    float: right;
+    padding-right: 4rem;
+    margin-left: 2rem;
+    text-align: center;
+  }
+  #search{
+    float: right;
+    padding-right: 9rem;
+  }
+  footer{
+    margin-top: 70rem;
+    height: 25rem;
+  }
+  footer a{
+    text-align: right;
+    padding-left: 9.5rem;
+  }
+}
+@media(max-width:360px){
+  .willkommen{
+    float: right;
+    padding-right: 2rem;
+    text-align: center;
+  }
+  .AB{
+    float: right;
+    padding-right: 2rem;
+  }
+  #logo{
+    float: right;
+    font-size: 4rem;
+    padding-right: .5rem;
+    margin-left: 1rem;
+  }
+  section {
+    padding: 0 calc(100%-.5rem);
+    padding: botton 1rem;
+    margin-left: 1rem;
+
+  }
+  .Niveau{
+    float: right;
+    padding-right: 10rem;
+    text-align: center;
+    margin-left: 1rem;
+  }
+  #begann{
+    float: right;
+    margin-left: 1rem;
+    padding-right: 6rem;
+  }
+  #search{
+    float: right;
+    padding-right: 9rem;
+  }
 }
