@@ -162,6 +162,67 @@ text-align: center;
   bottom: 75px;
   left: 90px;
 }
+@media(max-width:395px){
+  .willkommen{
+     margin-left: 1px;
+     text-align: center;
+  }
+ 
+  #search{
+    float: right;
+    padding-right: 9rem;
+    padding: bottom 2rem; 
+  }
+  .Niveau{
+    float: right;
+    padding-right: 8rem;
+    text-align: center;
+    margin-left: 1rem;
+    /* padding-bottom: 1rem; */
+  }
+  .box{
+    width: 100% ;
+    margin-right: 4em;
+  }
+  .AB{
+    float: right;
+    padding-left: 6rem;
+    text-align: center;
+    
+  }
+  section {
+    /* padding: 0 100%; */
+    /* padding-bottom:  1rem; */
+    /* margin-left: 1rem; */
+    height: 40em;
+    margin-bottom: 5em;
+  }
+
+
+  #logo{
+    float: right;
+    font-size: 4rem;
+    padding-right: .22rem;
+    margin-left: 2rem;
+  }
+   footer {
+    padding-top: 3rem;
+    height: 30rem;
+    width: 100%;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 1rem; */
+    /* transform: translatey(300px); */
+  }
+  #begann{
+    float: right;
+    text-align: center;
+    margin-right: 6rem;
+  }
+  footer a{
+    margin-left: 9rem;
+  }
+}
+
 @media (max-width:500px) {
   .willkommen{
     float: right;
@@ -180,9 +241,9 @@ text-align: center;
   }
   section {
     padding: 1rem calc(100%-.5rem);
-    margin-top: 10rem;
+    margin-top: 5rem;
     /* margin-bottom: 20rem; */
-    height: 10rem;
+    height: 35rem;
   }
   .Niveau{
     float: right;
@@ -200,66 +261,14 @@ text-align: center;
     padding-right: 9rem;
   }
   footer{
-    margin-bottom: 20rem;
-    height: 10rem;
+    /* margin-bottom: 2rem; */
+    height: 27rem;
+    margin-top: 10rem;
   }
   footer a{
     text-align: right;
     padding-left: 9.5rem;
   }
 }
-@media(max-width:395px){
-  .willkommen{
-    float: right;
-    padding-right: 1.5rem;
-    text-align: center;
-  }
-  .box{
-    width:250px ;
-    padding-bottom: 1rem;
-  }
-  .AB{
-    float: right;
-    padding-right: 6rem;
-    
-  }
-  #logo{
-    float: right;
-    font-size: 4rem;
-    padding-right: .5rem;
-    margin-left: 1rem;
-    margin-top: .1rem;
-  }
-  section {
-    /* padding: 0 100%; */
-    /* padding-bottom:  1rem; */
-    /* margin-left: 1rem; */
-    height: 40em;
-    margin-bottom: 10em;
-  }
-  .Niveau{
-    float: right;
-    padding-right: 10rem;
-    text-align: center;
-    margin-left: 1rem;
-    /* padding-bottom: 1rem; */
-  }
-  #begann{
-    float: right;
-    margin-left: 1rem;
-    padding-right: 1rem;
-    margin-top: .1rem;
-  }
-  #search{
-    float: right;
-    padding-right: 9rem;
-    padding: bottom 2rem; 
-  }
-   footer {
-    height: 25rem;
-    width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-}
+
 
