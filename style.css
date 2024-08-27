@@ -163,15 +163,21 @@ text-align: center;
   left: 90px;
 }
 @media(max-width:395px){
+  html{
+    background-color: rgb(65, 65, 65);
+    background-image: none;
+  }
+  header nav form a{
+    font-size: .75em;
+  }
   .willkommen{
-     margin-left: 1px;
+     margin-right: 1em;
      text-align: center;
+     font-size: 1.5em;
   }
  
   #search{
-    float: right;
-    padding-right: 9rem;
-    padding: bottom 2rem; 
+  
   }
   .Niveau{
     float: right;
@@ -181,8 +187,7 @@ text-align: center;
     /* padding-bottom: 1rem; */
   }
   .box{
-    width: 100% ;
-    margin-right: 4em;
+    width: calc(100%-4rem);
   }
   .AB{
     float: right;
@@ -191,11 +196,12 @@ text-align: center;
     
   }
   section {
+    width: 100%;
     /* padding: 0 100%; */
     /* padding-bottom:  1rem; */
     /* margin-left: 1rem; */
     height: 40em;
-    margin-bottom: 5em;
+    /* margin-bottom: 5em; */
   }
 
 
@@ -206,33 +212,45 @@ text-align: center;
     margin-left: 2rem;
   }
    footer {
-    padding-top: 3rem;
-    height: 30rem;
-    width: 100%;
+    /* padding-top: 3rem; */
+    height: 5rem;
+    width: 395px;
     /* margin-top: 2rem; */
     /* margin-bottom: 1rem; */
-    /* transform: translatey(300px); */
+    transform: translatey(20px);
   }
   #begann{
     float: right;
     text-align: center;
-    margin-right: 6rem;
+    /* margin-right: 1rem; */
+    margin-right: 2rem;
   }
   footer a{
-    margin-left: 9rem;
+    margin-left: 1rem;
   }
 }
 
 @media (max-width:500px) {
+  html{
+    /* background-image: none; */
+  }
+  header nav form a{
+    font-size: .75em;
+  }
   .willkommen{
     float: right;
-    padding-right: 2rem;
+    padding-right: 5rem;
     text-align: center;
     margin-top: 1rem;
+    font-size: 1.5em;
   }
   .AB{
     float: right;
     padding-right: 2rem;
+  }
+  .box{
+    width: 22rem;
+    margin-left: 1em;
   }
   #logo{
     float: right;
@@ -244,17 +262,18 @@ text-align: center;
     margin-top: 5rem;
     /* margin-bottom: 20rem; */
     height: 35rem;
+    /* width: 500px; */
   }
   .Niveau{
     float: right;
-    padding-right: 10rem;
+    padding-right: 9rem;
     text-align: center;
   }
   #begann{
     float: right;
-    padding-right: 4rem;
-    margin-left: 2rem;
     text-align: center;
+    /* margin-right: 1rem; */
+    margin-right: 8rem;
   }
   #search{
     float: right;
@@ -263,11 +282,12 @@ text-align: center;
   footer{
     /* margin-bottom: 2rem; */
     height: 27rem;
+    width: 100%;
     margin-top: 10rem;
   }
   footer a{
     text-align: right;
-    padding-left: 9.5rem;
+    padding-left: 10rem;
   }
 }
 
