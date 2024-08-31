@@ -43,10 +43,10 @@ header nav form button {
   }
   #section{
     width: 100vw;
-    background-size: 100% ;
-    /* padding-left: 30em; */
+    height: 20rem;
+    /* padding-right: 3em; */
     padding-top: 5em;
-    padding-bottom: 7rem;
+    padding-bottom: 3rem;
     background-color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* mask-image: url(./blank-whiteboard-standing-white-background_125540-3782.png); */
@@ -136,7 +136,7 @@ header nav form button {
 .AB{
   position: relative;
   /* right: 120px; */
-  padding-right: 5rem;
+  padding-right: 4rem;
   display: table;
 }
 .row1 p {
@@ -162,6 +162,71 @@ text-align: center;
   bottom: 75px;
   left: 90px;
 }
+@media(max-width:360){
+  html{
+    background-color: rgb(65, 65, 65);
+    background-image: none;
+  }
+  header nav form a{
+    font-size: .75em;
+  }
+  .willkommen{
+     margin-left: 20em;
+     /* transform: translateX(-40px); */
+     text-align: center;
+     font-size: 1.5em;
+  }
+  .Niveau{
+    /* float: right; */
+    padding-right: 2rem;
+    transform: translateX(20px) translateY(-70px);
+    text-align: center;
+    margin-left: 3rem;
+    /* padding-bottom: 1rem; */
+  }
+  .box{
+    width: calc(100%-4rem);
+  }
+  .AB{
+    /* float: right; */
+    padding-left: 9rem;
+    transform: translateX(40px);
+    text-align: center;
+    
+  }
+  section {
+    width: 360px;
+    /* padding: 0 100%; */
+    /* padding-bottom:  1rem; */
+    /* margin-left: 1rem; */
+    height: 40em;
+    /* margin-bottom: 5em; */
+  }
+  #logo{
+    float: right;
+    font-size: 4rem;
+    padding-right: .22rem;
+    margin-left: 2rem;
+  }
+   footer {
+    /* padding-top: 3rem; */
+    height: 5rem;
+    width: 360px;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 1rem; */
+    transform: translatex(40px);
+  }
+  #begann{
+    float: right;
+    text-align: center;
+    /* margin-right: 1rem; */
+    margin-right: 2rem;
+  }
+  footer a{
+    margin-left: 1rem;
+  }
+}
+
 @media(max-width:395px){
   html{
     background-color: rgb(65, 65, 65);
@@ -174,10 +239,6 @@ text-align: center;
      margin-right: 1em;
      text-align: center;
      font-size: 1.5em;
-  }
- 
-  #search{
-  
   }
   .Niveau{
     float: right;
@@ -203,8 +264,6 @@ text-align: center;
     height: 40em;
     /* margin-bottom: 5em; */
   }
-
-
   #logo{
     float: right;
     font-size: 4rem;
@@ -232,7 +291,7 @@ text-align: center;
 
 @media (max-width:500px) {
   html{
-    /* background-image: none; */
+    background-image: none;
   }
   header nav form a{
     font-size: .75em;
