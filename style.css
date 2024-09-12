@@ -69,10 +69,15 @@ header nav form button {
   }
   .cube{
     position: relative;
-    perspective: 600px;
-    transform: translateY(92px);translateX(5px);
+    transform: translate(623px,96px)rotatey(-18deg)rotateX(-51deg);
+    transform-style: preserve-3d;
+    font-size: 5rem;
+    text-align: center;
+    color: black;
+    font-style: italic;
   }
   .cube_face{
+   
     position: absolute;
     width: 90px;
     height: 90px;
@@ -81,12 +86,19 @@ header nav form button {
   .cube_facecube--bottom{
     transform: rotateX(20px);
   }
-  .cube--right{background-color: rgba(32, 32, 32, 0.85);}
-  .cube--Left{background-color: rgba(rgb(235, 235, 235), rgb(255, 255, 255), rgb(93, 93, 163), .5);}
-  .cube--back{background-color: rgba(rgba(85, 0, 255, 0.5));}
-  .cube--top{background-color: rgba(100,200,0, .5);}
-  .cube--bottom{background-color: rgba(0, 255,85, .5);}
- 
+  .cube--right{background-color: rgba(7, 102, 86,.5)}
+  .cube--Left{background-color:  rgba(7, 102, 86,.5)}
+  .cube--back{background-color:rgba(7, 102, 86,.5)}
+  .cube--top{background-color:rgba(7, 102, 86,.5)}
+  .cube--bottom{background-color: rgba(7, 102, 86,.5)}
+  .cube--Front{background-color: rgba(7, 102, 86,.5)}
+
+  .cube--right{transform:translatex(48px)translatez(45px)rotatey(90deg)}
+  .cube--Left{transform:translatex(-48px)translatez(45px)rotatey(90deg)}
+  .cube--top{transform:rotateX(90deg)translateZ(49px)translateY(44px)translate(0px)}
+  .cube--bottom{transform: rotateX(90deg)translateZ(-48px)translateY(45px)}
+  .cube--Front{transform:rotateX(0deg)translateZ(87px)translateY(1px)translateX(-1px)}
+  
   #logo{
    box-shadow: rgba( 0 0 40px rgba(0,0,0,.45););
     font-size: 550%;
