@@ -225,13 +225,17 @@ text-align: center;
     text-align: center;
     
   }
-  section {
+  #section {
     width: 375px;
     /* padding: 0 100%; */
     /* padding-bottom:  1rem; */
     /* margin-left: 1rem; */
-    height: 100rem;
+    height: 732px;
     /* margin-bottom: 5em; */
+    transform: translateY(-5px)
+  }
+  .cube{
+    transform:translate(132px,635px)rotatey(-18deg)rotateX(-51deg);
   }
   #logo{
     float: right;
@@ -324,6 +328,7 @@ text-align: center;
 @media (max-width:500px) {
   html{
     background-image: none;
+    background-color: rgb(65, 65, 65);
   }
   header nav form a{
     font-size: .75em;
@@ -332,6 +337,10 @@ text-align: center;
     text-align: center;
     margin-top: 1rem;
     font-size: 1.5em;
+    transform: translateX(-87px);
+  }
+  nav p{
+    margin-left: 11rem;
   }
   .AB{
     float: right;
@@ -341,21 +350,26 @@ text-align: center;
     width: calc(100%-.5);
     margin-left: 2em;
   }
+  .cube{
+    transform:translate(178px,635px)rotatey(-18deg)rotateX(-51deg);
+  }
   #logo{
     float: right;
     font-size: 4rem;
     padding-right: .5rem;
+    transform: translate(-32px,-33px);
   }
-  section {
+  #section {
     padding: 1rem calc(100%-.5rem);
     margin-top: 5rem;
     /* margin-bottom: 20rem; */
-    height: 35rem;
+    height: 732px;
     /* width: 500px; */
+    transform: translateY(-5px);
   }
   .Niveau{
     float: right;
-    padding-right: 9rem;
+    padding-right: 11rem;
     text-align: center;
   }
   #begann{
@@ -363,6 +377,7 @@ text-align: center;
     text-align: center;
     /* margin-right: 1rem; */
     margin-right: 7rem;
+    transform: translate(-41px,-95px);
   }
   #search{
     float: right;
@@ -373,11 +388,14 @@ text-align: center;
     height: 27rem;
     width: 100%;
     margin-top: 10rem;
+    transform: translateY(6px);
+
   }
   footer a{
     text-align: right;
-    padding-left: 8rem;
+    padding-left: 11rem;
   }
 }
+
 
 
